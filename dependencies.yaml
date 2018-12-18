@@ -1,0 +1,34 @@
+repositories:
+  catkin_simple:
+    type: git
+    url: git@github.com:catkin/catkin_simple.git
+    version: master
+  gflags_catkin:
+    type: git
+    url: git@github.com:ethz-asl/gflags_catkin.git
+    version: master
+  glog_catkin:
+    type: git
+    url: git@github.com:ethz-asl/glog_catkin.git
+    version: master
+  minkindr:
+    type: git
+    url: git@github.com:ethz-asl/minkindr.git
+    version: master
+  cnpy:
+    type: git
+    url: git@github.com:uzh-rpg/cnpy_catkin.git
+    version: master
+  rpg_dvs_ros:
+    type: git
+    url: git@github.com:uzh-rpg/rpg_dvs_ros.git
+    version: master
+  eigen_catkin:
+    type: git
+    url: git@github.com:ethz-asl/eigen_catkin.git
+    version: master
+  eigen_checks:
+    type: git
+    url: git@github.com:ethz-asl/eigen_checks.git
+    version: master
+

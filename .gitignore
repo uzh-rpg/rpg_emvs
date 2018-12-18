@@ -1,0 +1,5 @@
+*.user
+mapper_emvs/confidence_map.png
+mapper_emvs/dsi.netcdf
+mapper_emvs/dsi.npy
+mapper_emvs/cell_indeces.png

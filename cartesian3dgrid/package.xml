@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>cartesian3dgrid</name>
+  <version>0.0.0</version>
+  <description>Cartesian 3D grid</description>
+  <maintainer email="guillermo.gallego@ifi.uzh.ch">Guillermo Gallego</maintainer>
+
+  <license>see LICENSE</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+  
+  <depend>cv_bridge</depend>
+  <depend>cnpy_catkin</depend>
+  
+  <export>
+
+  </export>
+</package>
