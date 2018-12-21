@@ -2,7 +2,11 @@
 
 [![EMVS: Event-based Multi-View Stereo](mapper_emvs/images/youtube_preview.png)](https://youtu.be/EFpZcpd9XJ0)
 
-This is the code for the 2018 IJCV paper [**EMVS: Event-Based Multi-View Stereo - 3D Reconstruction with an Event Camera in Real-Time**](http://rpg.ifi.uzh.ch/docs/IJCV17_Rebecq.pdf) by [Henri Rebecq](http://henri.rebecq.fr), [Guillermo Gallego](http://www.guillermogallego.es), [Elias Mueggler](http://rpg.ifi.uzh.ch/people_mueggler.html), and [Davide Scaramuzza](http://rpg.ifi.uzh.ch/people_scaramuzza.html):
+This is the code for the 2018 IJCV paper [**EMVS: Event-Based Multi-View Stereo - 3D Reconstruction with an Event Camera in Real-Time**](http://rpg.ifi.uzh.ch/docs/IJCV17_Rebecq.pdf) by [Henri Rebecq](http://henri.rebecq.fr), [Guillermo Gallego](http://www.guillermogallego.es), [Elias Mueggler](http://rpg.ifi.uzh.ch/people_mueggler.html), and [Davide Scaramuzza](http://rpg.ifi.uzh.ch/people_scaramuzza.html).
+
+### Citation
+
+A pdf of the paper is [available here](http://rpg.ifi.uzh.ch/docs/IJCV17_Rebecq.pdf). If you use any of this code, please cite this publication as follows:
 
 ```bibtex
 @Article{Rebecq18ijcv,
@@ -20,13 +24,15 @@ This is the code for the 2018 IJCV paper [**EMVS: Event-Based Multi-View Stereo 
 }
 ```
 
-You can find a pdf of the paper [here](http://rpg.ifi.uzh.ch/docs/IJCV17_Rebecq.pdf). If you use any of this code, please cite this publication.
+### Patent & License
 
-**Patent**: The proposed EMVS method is patented, as you may find in [this link](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2018037079). Please comply to the [license](LICENSE).
+- The proposed EMVS method is patented, as you may find in [this link](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2018037079).
 
-    H. Rebecq, G. Gallego, D. Scaramuzza
-    Simultaneous Localization and Mapping with an Event Camera
-    Pub. No.: WO/2018/037079.  International Application No.: PCT/EP2017/071331
+      H. Rebecq, G. Gallego, D. Scaramuzza
+      Simultaneous Localization and Mapping with an Event Camera
+      Pub. No.: WO/2018/037079.  International Application No.: PCT/EP2017/071331
+    
+- The license is [available here](LICENSE).
 
 # Overview
 
