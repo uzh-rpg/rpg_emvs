@@ -22,7 +22,7 @@ This is the code for the 2018 IJCV paper [**EMVS: Event-Based Multi-View Stereo 
 
 You can find a pdf of the paper [here](http://rpg.ifi.uzh.ch/docs/IJCV17_Rebecq.pdf). If you use any of this code, please cite this publication.
 
-**Patent**: The proposed EMVS method is patented, as you may find in [this link](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2018037079).
+**Patent**: The proposed EMVS method is patented, as you may find in [this link](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2018037079). Please comply to the [license](LICENSE).
 
     H. Rebecq, G. Gallego, D. Scaramuzza
     Simultaneous Localization and Mapping with an Event Camera
