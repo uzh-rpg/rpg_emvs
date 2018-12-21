@@ -1,5 +1,7 @@
 *.user
 mapper_emvs/confidence_map.png
-mapper_emvs/dsi.netcdf
+mapper_emvs/depth_colored.png
+mapper_emvs/depth_map.png
 mapper_emvs/dsi.npy
-mapper_emvs/cell_indeces.png
+mapper_emvs/pointcloud.pcd
+mapper_emvs/semidense_mask.png
