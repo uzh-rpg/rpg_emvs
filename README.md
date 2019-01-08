@@ -152,6 +152,27 @@ A 3D matplotlib interactive window like the one below should appear, allowing yo
 
 We provide additional examples with sequences from the [Event Camera Dataset](http://rpg.ifi.uzh.ch/davis_data.html).
 
+### Office Scene
+
+Download [dynamic_6dof](http://rpg.ifi.uzh.ch/datasets/davis/dynamic_6dof.bag) and run:
+
+    rosrun mapper_emvs run_emvs --bag_filename=/path/to/dynamic_6dof.bag --flagfile=cfg/dynamic_6dof.conf
+
+The images generated should coincide with those in [this folder](mapper_emvs/images/dynamic_6dof).
+
+<table border="0" style="width:100%; border:none; border-collapse: collapse;">
+  <tr style="border:none;">
+    <td align="center" style="border:none;"><img src="mapper_emvs/images/dynamic_6dof/confidence_map.png" width="300"></td>
+    <td align="center" style="border:none;"><img src="mapper_emvs/images/dynamic_6dof/depth_colored.png" width="300"></td>
+  </tr>
+  <tr style="border:none;">
+    <td align="center" style="border:none;">Confidence map</td>
+    <td align="center" style="border:none;">Depth map</td>
+  </tr>
+</table>
+
+You may also explore the DSI as in the previous example (the same commands should work).
+
 ### Boxes
 Download [boxes_6dof](http://rpg.ifi.uzh.ch/datasets/davis/boxes_6dof.bag) and run:
 
