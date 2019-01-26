@@ -57,11 +57,11 @@ Create a new catkin workspace if needed:
 Clone this repository:
 
     cd src/
-    git clone git@github.com:uzh-rpg/rpg_emvs_proto.git
+    git clone git@github.com:uzh-rpg/rpg_emvs.git
 
 Clone dependencies:
 
-    vcs-import < rpg_emvs_proto/dependencies.yaml
+    vcs-import < rpg_emvs/dependencies.yaml
 
 Install `pcl-ros`:
 
