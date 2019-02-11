@@ -1,5 +1,6 @@
 #include <mapper_emvs/data_loading.hpp>
 
+#include <geometry_msgs/PoseStamped.h>
 #include <rosbag/bag.h>
 #include <rosbag/view.h>
 #include <boost/foreach.hpp>

@@ -1,8 +1,6 @@
 #pragma once
 
 #include <kindr/minimal/quat-transformation.h>
-#include <ros/time.h>
-#include <tf_conversions/tf_eigen.h>
 #include <opencv2/core/core.hpp>
 #include <glog/logging.h>
 
@@ -74,8 +72,5 @@ public:
   Eigen::Matrix3f K_;
   Eigen::Matrix3f Kinv_;
 };
-
-
-Transformation poseTFToMinkindr(const tf::Pose& pose);
 
 }

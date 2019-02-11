@@ -1,9 +1,9 @@
 #pragma once
 
-#include <mapper_emvs/geometry_utils.hpp>
-#include <mapper_emvs/depth_vector.hpp>
 #include <cartesian3dgrid/cartesian3dgrid.h>
+#include <mapper_emvs/geometry_utils.hpp>
 #include <mapper_emvs/trajectory.hpp>
+#include <mapper_emvs/depth_vector.hpp>
 
 #include <dvs_msgs/Event.h>
 #include <image_geometry/pinhole_camera_model.h>

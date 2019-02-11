@@ -19,7 +19,6 @@ set(HEADERS
 set(SOURCES
   src/mapper_emvs.cpp
   src/data_loading.cpp
-  src/geometry_utils.cpp
   src/median_filtering.cpp
 )
 

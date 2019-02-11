@@ -15,7 +15,6 @@
   <depend>dvs_msgs</depend>
   <depend>camera_info_manager</depend>
   <depend>image_geometry</depend>
-  <depend>tf_conversions</depend>
   <depend>minkindr</depend>
   <depend>cartesian3dgrid</depend>
   <depend>rosbag</depend>
