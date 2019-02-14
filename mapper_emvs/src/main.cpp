@@ -1,7 +1,4 @@
-#include <mapper_emvs/geometry_utils.hpp>
-#include <mapper_emvs/trajectory.hpp>
 #include <mapper_emvs/data_loading.hpp>
-#include <cartesian3dgrid/cartesian3dgrid.h>
 #include <mapper_emvs/mapper_emvs.hpp>
 
 #include <image_geometry/pinhole_camera_model.h>

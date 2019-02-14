@@ -1,7 +1,9 @@
 #pragma once
 
+#include <string>
+#include <map>
+#include <ros/time.h>
 #include <mapper_emvs/geometry_utils.hpp>
-
 #include <dvs_msgs/EventArray.h>
 #include <camera_info_manager/camera_info_manager.h>
 

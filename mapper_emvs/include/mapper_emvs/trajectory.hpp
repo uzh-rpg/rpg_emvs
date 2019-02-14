@@ -1,11 +1,8 @@
 #pragma once
 
+#include <map>
+#include <ros/time.h>
 #include <mapper_emvs/geometry_utils.hpp>
-
-#include <tf/tfMessage.h>
-#include <tf/transform_datatypes.h>
-#include <tf/tf.h>
-#include <tf_conversions/tf_eigen.h>
 
 template<class DerivedTrajectory>
 class Trajectory
@@ -27,23 +24,7 @@ public:
   {
     return derived().getPoseAt(t, T);
   }
-  
-  bool getControlPose(const size_t idx, geometry_utils::Transformation* T, ros::Time* t) const
-  {
-    size_t control_pose_idx = 0u;
-    for(auto it : poses_)
-    {
-      if (control_pose_idx == idx)
-      {
-        *t = it.first;
-        *T = it.second;
-        return true;
-      }
-      control_pose_idx++;
-    }
-    return false;
-  }
-  
+    
   void getFirstControlPose(geometry_utils::Transformation* T, ros::Time* t) const
   {
     *t = poses_.begin()->first;
@@ -60,33 +41,7 @@ public:
   {
     return poses_.size();
   }
-  
-  void setControlPose(const size_t idx, const geometry_utils::Transformation& T, const ros::Time& t)
-  {
-    size_t num_poses = getNumControlPoses();
     
-    VLOG(2) << "Set control pose #" << idx << ". time = " << t;
-    
-    if (num_poses > 0 && idx < num_poses)
-    {
-      size_t control_pose_idx = 0u;
-      for (auto it = poses_.cbegin(); it != poses_.end(); )
-      {
-        if (control_pose_idx == idx)
-        {
-          poses_.erase(it++);
-          poses_.insert(std::pair<ros::Time, geometry_utils::Transformation>(t, T));
-          return;
-        }
-        ++it;
-        control_pose_idx++;
-      }
-    }
-    
-    // Insert new control pose
-    poses_.insert(std::pair<ros::Time, geometry_utils::Transformation>(t, T));    
-  }
-  
   bool print() const
   {
     size_t control_pose_idx = 0u;
