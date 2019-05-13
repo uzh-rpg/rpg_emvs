@@ -225,6 +225,7 @@ This requires recompiling `mapper_emvs`. We recommend removing the `emvs_mapper`
 
 # Additional Resources on Event Cameras
 
+* [Event-based Vision Survey](http://rpg.ifi.uzh.ch/docs/EventVisionSurvey.pdf)
 * [List of Event-based Vision Resources](https://github.com/uzh-rpg/event-based_vision_resources)
 * [Event Camera Dataset](http://rpg.ifi.uzh.ch/davis_data.html)
 * [Event Camera Simulator](http://rpg.ifi.uzh.ch/esim)
