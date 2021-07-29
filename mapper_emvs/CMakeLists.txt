@@ -5,7 +5,7 @@ find_package(catkin_simple REQUIRED)
 catkin_simple(ALL_DEPS_REQUIRED)
 
 set(CMAKE_BUILD_TYPE RelWithDebInfo) # Release, RelWithDebInfo
-set(CMAKE_CXX_FLAGS "-O3 -fopenmp -std=c++11 ${CMAKE_CXX_FLAGS}")
+set(CMAKE_CXX_FLAGS "-O3 -fopenmp -std=c++14 ${CMAKE_CXX_FLAGS}")
 
 set(HEADERS
   include/mapper_emvs/mapper_emvs.hpp
