@@ -38,7 +38,7 @@ public:
   void resetGrid();
   
   // Output
-  int writeGridNpy(const char szFilename[]) const;
+  void writeGridNpy(const char szFilename[]) const;
   
   void getDimensions(int* dimX, int* dimY, int* dimZ) const
   {

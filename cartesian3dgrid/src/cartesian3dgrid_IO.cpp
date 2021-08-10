@@ -7,7 +7,7 @@
 
 //--------------------- Output for Numpy -----------------------------------------
 
-int Grid3D::writeGridNpy(const char filename[]) const
+void Grid3D::writeGridNpy(const char filename[]) const
 {
   cnpy::npy_save(std::string(filename),
                  &data_array_[0],

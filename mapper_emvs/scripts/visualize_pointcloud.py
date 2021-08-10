@@ -11,7 +11,7 @@ from mpl_toolkits.mplot3d import Axes3D  # noqa: F401 unused import
 import matplotlib.pyplot as plt
 import numpy as np
 import argparse
-import pypcd
+from pypcd import pypcd
 
 
 def set_aspect_ratio_equal(Xr, Yr, Zr, ax):
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
-    ax.set_aspect('equal')
+    ax.set_aspect('auto')
     
     # Rename the axis so that the Zr axis coincides with -X
     Xr, Yr, Zr = Z, -X, -Y
